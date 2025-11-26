@@ -28,7 +28,8 @@ Neural EBM
 The goal is to investigate whether these models can implicitly preserve geometric constraints when trained only on samples.
 ---
 
-## Repository Structure (planned)
+Author: Mahtab Ataei
+
 
  - `code/` – training scripts for quadratic and neural EBMs.  
 - `figures/` – generated plots (energy landscapes, symplectic error, PCA, etc.)  
