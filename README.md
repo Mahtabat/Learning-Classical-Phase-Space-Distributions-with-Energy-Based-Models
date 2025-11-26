@@ -15,6 +15,18 @@ I evaluate both **quadratic** and **neural** EBMs, analyzing their gradients, Ja
 By blending physics, geometry, and machine learning, this work opens a path toward structure-aware generative models and lays the groundwork for future explorations in phase space learning and quantum–classical transitions.
 
 ---
+##Project Overview
+
+This project explores whether Energy-Based Models (EBMs) can learn not only the statistical shape of classical phase space distributions but also the geometric structure behind them — specifically, the symplectic structure, a defining property of Hamiltonian systems.
+
+I trained and analyzed two classes of EBMs:
+
+Quadratic EBM 
+
+Neural EBM
+
+The goal is to investigate whether these models can implicitly preserve geometric constraints when trained only on samples.
+---
 
 ## Repository Structure (planned)
 
