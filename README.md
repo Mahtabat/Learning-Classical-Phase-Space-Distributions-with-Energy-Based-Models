@@ -3,7 +3,6 @@
 This repository documents my Master's thesis project on using **Energy-Based Models (EBMs)** to learn classical phase space distributions and to study whether these models can also preserve the underlying **geometric (symplectic) structure** of physical systems.
 
 ## Abstract
-
 What if a machine could not only learn to fit physical data—but also uncover the hidden geometric structure behind it?
 
 This work takes a step toward that vision by combining classical phase space theory with modern energy-based learning. I investigate whether EBMs, trained solely on samples from a distribution, can capture both the statistical and structural properties of physical systems. In particular, I explore whether these models can implicitly respect the **symplectic structure**—a defining geometric property of phase space—without being explicitly told to do so.
@@ -12,22 +11,12 @@ I evaluate both **quadratic** and **neural** EBMs, analyzing their gradients, Ja
 
 By blending physics, geometry, and machine learning, this work opens a path toward structure-aware generative models and lays the groundwork for future explorations in phase space learning and quantum–classical transitions.
 
-
 ## Project Overview
 
 This project explores whether Energy-Based Models (EBMs) can learn not only the statistical shape of classical phase space distributions but also the geometric structure behind them — specifically, the symplectic structure, a defining property of Hamiltonian systems.
 
-I trained and analyzed two classes of EBMs:
+I trained and analyzed two classes of EBMs: Quadratic EBM, Neural EBM. The goal is to investigate whether these models can implicitly preserve geometric constraints when trained only on samples.
 
-Quadratic EBM 
-
-Neural EBM
-
-The goal is to investigate whether these models can implicitly preserve geometric constraints when trained only on samples.
-
-Author: Mahtab Ataei
-
-
- - `code/` – training scripts for quadratic and neural EBMs.  
+- `code/` – training scripts for quadratic and neural EBMs.  
 - `figures/` – generated plots (energy landscapes, symplectic error, PCA, etc.)  
 
